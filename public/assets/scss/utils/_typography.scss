@@ -1,0 +1,211 @@
+.tp-visually-hidden {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
+}
+
+// font url
+$font-url: 'https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Besley:ital,wght@0,400..900;1,400..900&family=Space+Grotesk:wght@300..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Satisfy&family=Teko:wght@300..700&family=Phudu:wght@300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Onest:wght@100..900&display=swap';
+
+// Platform
+@font-face {
+  font-family: 'Platform';
+  src: url('../../fonts/Platform-Light.eot');
+  src: local('Platform Light'), local('Platform-Light'),
+  url('../../fonts/Platform-Light.eot?#iefix') format('embedded-opentype'),
+  url('../../fonts/Platform-Light.woff2') format('woff2'),
+  url('../../fonts/Platform-Light.woff') format('woff'),
+  url('../../fonts/Platform-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Platform';
+  src: url('../../fonts/Platform-Regular.eot');
+  src: local('Platform Regular'), local('Platform-Regular'),
+  url('../../fonts/Platform-Regular.eot?#iefix') format('embedded-opentype'),
+  url('../../fonts/Platform-Regular.woff2') format('woff2'),
+  url('../../fonts/Platform-Regular.woff') format('woff'),
+  url('../../fonts/Platform-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Platform';
+  src: url('../../fonts/Platform-Medium.eot');
+  src: local('Platform Medium'), local('Platform-Medium'),
+  url('../../fonts/Platform-Medium.eot?#iefix') format('embedded-opentype'),
+  url('../../fonts/Platform-Medium.woff2') format('woff2'),
+  url('../../fonts/Platform-Medium.woff') format('woff'),
+  url('../../fonts/Platform-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+// MangoGrotesque
+@font-face {
+    font-family: 'MangoGrotesque';
+    src: url('../../fonts/MangoGrotesque-Bold.woff') format('woff'),
+         url('../../fonts/MangoGrotesque-Bold.woff2') format('woff2'),
+         url('../../fonts/MangoGrotesque-Bold.ttf') format('truetype');
+    font-style: normal;
+    font-weight: bold;
+    text-rendering: optimizeLegibility;
+} 
+
+
+@font-face {
+    font-family: 'MangoGrotesqueLight';
+    src: url('../../fonts/MangoGrotesque-Light.woff') format('woff'),
+         url('../../fonts/MangoGrotesque-Light.woff2') format('woff2'),
+         url('../../fonts/MangoGrotesque-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    text-rendering: optimizeLegibility;
+} 
+
+
+@font-face {
+    font-family: 'MangoGrotesqueMed';
+    src: url('../../fonts/MangoGrotesque-Medium.woff') format('woff'),
+         url('../../fonts/MangoGrotesque-Medium.woff2') format('woff2'),
+         url('../../fonts/MangoGrotesque-Medium.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+} 
+
+@font-face {
+    font-family: 'MangoGrotesqueSemBd';
+    src: url('../../fonts/MangoGrotesque-SemiBold.woff') format('woff'),
+         url('../../fonts/MangoGrotesque-SemiBold.woff2') format('woff2'),
+         url('../../fonts/MangoGrotesque-SemiBold.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+} 
+
+@font-face {
+    font-family: 'MangoGrotesque';
+    src: url('../../fonts/MangoGrotesque-Regular.woff') format('woff'),
+         url('../../fonts/MangoGrotesque-Regular.woff2') format('woff2'), 
+         url('../../fonts/MangoGrotesque-Regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+} 
+
+@font-face {
+    font-family: 'MangoGrotesqueThin';
+    src: url('../../fonts/MangoGrotesque-Thin.woff') format('woff'),
+         url('../../fonts/MangoGrotesque-Thin.woff2') format('woff2'),
+         url('../../fonts/MangoGrotesque-Thin.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+} 
+@font-face {
+    font-family: 'dirtyline-36daysoftype-2022';
+    src: url('../../fonts/dirtyline-36daysoftype-2022.otf');
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+// ClashDisplay-Light
+  @font-face {
+    font-family: 'ClashDisplay-Light';
+    src: url('../../fonts/ClashDisplay-Light.woff2') format('woff2'),
+    url('../../fonts/ClashDisplay-Light.woff') format('woff'),
+    url('../../fonts/ClashDisplay-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-display: swap;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'ClashDisplay-Regular';
+    src: url('../../fonts/ClashDisplay-Regular.woff2') format('woff2'),
+    url('../../fonts/ClashDisplay-Regular.woff') format('woff'),
+    url('../../fonts/ClashDisplay-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'ClashDisplay-Medium';
+    src: url('../../fonts/ClashDisplay-Medium.woff2') format('woff2'),
+    url('../../fonts/ClashDisplay-Medium.woff') format('woff'),
+    url('../../fonts/ClashDisplay-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-display: swap;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'ClashDisplay-Semibold';
+    src: url('../../fonts/ClashDisplay-Semibold.woff2') format('woff2'),
+    url('../../fonts/ClashDisplay-Semibold.woff') format('woff'),
+    url('../../fonts/ClashDisplay-Semibold.ttf') format('truetype');
+    font-weight: 600;
+    font-display: swap;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'ClashDisplay-Bold';
+    src: url('../../fonts/ClashDisplay-Bold.woff2') format('woff2'),
+    url('../../fonts/ClashDisplay-Bold.woff') format('woff'),
+    url('../../fonts/ClashDisplay-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-display: swap;
+    font-style: normal;
+  }
+
+
+
+// font family
+$font-family: (
+    'ff': (
+        'teko': "'Inter', sans-serif",
+        'body': "'Inter', sans-serif",
+        'heading': "'Inter', sans-serif",
+        'inter': "'Inter', sans-serif",
+        'p': "'Inter', sans-serif",
+        'besley': "'Inter', sans-serif",
+        'mango-thin': "'Inter', sans-serif",
+        'mango-light': "'Inter', sans-serif",
+        'mango': "'Inter', sans-serif",
+        'mango-medium': "'Inter', sans-serif",
+        'mango-semibold': "'Inter', sans-serif",
+        'mango-bold': "'Inter', sans-serif",
+        'clash-light': "'Inter', sans-serif",
+        'clash-regular': "'Inter', sans-serif",
+        'clash-medium': "'Inter', sans-serif",
+        'clash-semibold': "'Inter', sans-serif",
+        'clash-bold': "'Inter', sans-serif",
+        'grotesk': "'Inter', sans-serif",
+        'platform': "'Inter', sans-serif",
+        'playfair': "'Inter', sans-serif",
+        'satisfy': "'Inter', sans-serif",
+        'dirtyline': "'Inter', sans-serif",
+        'phudu': "'Inter', sans-serif",
+        'poppins': "'Inter', sans-serif",
+        'onest': "'Inter', sans-serif",
+        'fontawesome': '"Font Awesome 6 Pro", sans-serif',
+    )
+);
+
+
+// font size
+$font-size: (
+    'fz': (
+        'body': 14px,
+        'p': 16px,
+    )
+);
+
+

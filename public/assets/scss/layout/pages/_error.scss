@@ -1,0 +1,129 @@
+@use '../../utils' as *;
+
+
+/*----------------------------------------*/
+/* Error Css
+/*----------------------------------------*/
+
+.tp-error{
+    &-area {
+        height: 100vh;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0 !important;
+    }
+    &-title{
+        font-weight: 700;
+        font-size: 80px;
+        margin-bottom: 0px;
+        color: var(--tp-common-white);
+    }
+    &-title-sm{
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 1.2;
+        text-transform: uppercase;
+        color: var(--tp-common-black);
+        margin-bottom: 0px; // Reduced from 5px
+    }
+    &-content{
+        & h4 {
+            font-size: 24px;
+            margin-bottom: 10px; // Reduced from 15px
+            color: var(--tp-common-white);
+        }
+        & p{
+            font-weight: 400;
+            font-size: 18px;
+            color: #57575a;
+            margin-bottom: 10px; // Reduced from 15px
+        }
+        & .tp-btn{
+            height: 60px;
+            line-height: 55px;
+            border-radius: 40px;
+            padding: 0 18px 0 24px;
+            font-weight: 500;
+            font-size: 18px;
+            letter-spacing: 0.03em;
+            z-index: 9;
+            overflow: hidden;
+            display: inline-block;
+            text-transform: capitalize;
+            position: relative;
+            transition: all 0.3s;
+            background-color: var(--tp-common-black);
+            color: var(--tp-common-white);
+            border: 2px solid transparent;
+            &:hover{
+                background-color: transparent;
+                color: var(--tp-common-white);
+                border-color: var(--tp-common-white);
+            }
+        }
+    }
+    &-wrapper{
+        & img{
+            margin-bottom: 0px; // Reduced from 10px to 0px
+        }
+    }
+}
+
+
+/*----------------------------------------*/
+/*  10.6 Error Css
+/*----------------------------------------*/
+
+.tp-error{
+    &-title{
+        font-weight: 700;
+        font-size: 64px;
+        margin-bottom: 50px;
+        color: var(--tp-common-black);
+    }
+    &-title-sm{
+        font-weight: 600;
+        font-size: 26px;
+        line-height: 1;
+        text-transform: uppercase;
+        color: var(--tp-common-black);
+    }
+    &-content{
+        & p{
+            font-weight: 400;
+            font-size: 18px;
+            color: #57575a;
+            margin-bottom: 30px;
+        }
+        & .tp-btn{
+            height: 60px;
+            line-height: 55px;
+            border-radius: 40px;
+            padding: 0 18px 0 24px;
+            font-weight: 500;
+            font-size: 18px;
+            letter-spacing: 0.03em;
+            z-index: 9;
+            overflow: hidden;
+            display: inline-block;
+            text-transform: capitalize;
+            position: relative;
+            transition: all 0.3s;
+            background-color: var(--tp-common-black);
+            color: var(--tp-common-white);
+            border: 2px solid transparent;
+            &:hover{
+                background-color: transparent;
+                color: var(--tp-common-black);
+                border-color: var(--tp-common-black);
+            }
+        }
+    }
+    &-wrapper{
+        & img{
+            margin-bottom: 55px;
+        }
+    }
+}

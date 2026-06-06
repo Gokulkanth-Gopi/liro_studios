@@ -1,0 +1,8 @@
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=GOKULKANTHCSE_liro_studios&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=GOKULKANTHCSE_liro_studios)
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=GOKULKANTHCSE_liro_studios&metric=bugs)](https://sonarcloud.io/summary/new_code?id=GOKULKANTHCSE_liro_studios)
+[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=GOKULKANTHCSE_liro_studios&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=GOKULKANTHCSE_liro_studios)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=GOKULKANTHCSE_liro_studios&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=GOKULKANTHCSE_liro_studios)
+[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=GOKULKANTHCSE_liro_studios&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=GOKULKANTHCSE_liro_studios)
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=GOKULKANTHCSE_liro_studios&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=GOKULKANTHCSE_liro_studios)
+[![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=GOKULKANTHCSE_liro_studios&metric=sqale_index)](https://sonarcloud.io/summary/new_code?id=GOKULKANTHCSE_liro_studios)
+[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=GOKULKANTHCSE_liro_studios&metric=reliability_rating)](https://sonarcloud.io/summary/new_code?id=GOKULKANTHCSE_liro_studios)

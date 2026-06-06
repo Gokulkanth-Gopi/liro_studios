@@ -1,0 +1,21 @@
+{
+  "name": "Liro Studios",
+  "short_name": "Liro",
+  "description": "Premium Digital Agency & Creative Portfolio",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0a0a",
+  "theme_color": "#0a0a0a",
+  "icons": [
+    {
+      "src": "/assets/img/logo/logo-pin.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/img/logo/logo-pin.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
