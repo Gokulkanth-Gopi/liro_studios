@@ -50,7 +50,7 @@ const HomeMainVideo = () => {
 
           {/* Main video player (always visible) */}
           <div className="tp-video-thumb mb-25">
-            <VideoPlayer videoUrl="/assets/videos/liro.mp4" />
+            <VideoPlayer videoUrl="/assets/videos/lirologo.mp4" />
           </div>
 
           {/* Remaining images */}
